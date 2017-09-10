@@ -37,7 +37,7 @@ fBodyGyro-XYZ,
 fBodyAccMag, 
 fBodyAccJerkMag, 
 fBodyGyroMag, 
-fBodyGyroJerkMag, 
+fBodyGyroJerkMag. 
 
 Additional vectors obtained by averaging the signals in a signal window sample. These are used on the <br />
 angle() variable:<br />
