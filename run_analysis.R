@@ -43,5 +43,5 @@ colnames(merged) <- c(featnames, "activity", "subject")
 
 grouped <- group_by(merged, activity, subject)
 tidy <- as.database(summarise_all(grouped, mean))
-write.table(tidy, file = "tidy.txt")
+write.table(tidy, file = "tidy.txt", row.name=FALSE)
 
